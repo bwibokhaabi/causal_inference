@@ -1,46 +1,40 @@
-# causal_inference-breast cancer
-
-
-**Table of Contents**
-
-- [causal_inference](#causal_inference-breast cancer)
-  - [Overview](#overview)
-  - [Scenario](#scenario)
-  - [Approach](#approach)
-  - [Project Structure](#project-structure)
-    - [assets](#assets)
-    - [notebooks](#notebooks)
-    - [scripts](#scripts)
-    - [tests](#tests)
-    - [logs](#logs)
-    - [root folder](#root-folder)
-  - [Dependancies](#Dependancies)
-
+# Causal-Inference
 ## Overview
+Breast cancer is the most common invasive cancer in women and the second leading cause of cancer death in women after lung cancer. Advances in screening and treatment for breast cancer have improved survival rates dramatically since 1989. According to the American Cancer Society (ACS), there are more than 3.1 million breast cancer survivors in the United States. The chance of any woman dying from breast cancer is around 1 in 38 (2.6%).
 
-## Scenario
+## Table of contents
+* [Data](#data)
+* [Installation](#install)
+* [License](#license)
 
-## Approach
+<a name='data'></a>
+## Data
+
+- https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
+
+<a name='install'></a>
+## Installation
+
+Clone the project
+
+```bash
+  git clone https://github.com/DiyeMark/Causal-Inference.git
+```
+
+Go to the project directory
+
+```bash
+  cd Causal-Inference
+```
+
+Install dependencies
+
+```bash
+  pip install -r requirements.txt
+```
+
+<a name='license'></a>
+## License
 
 
-## Project Structure
-
-
-### assets:
-
-
-### notebooks:
-
-
-### scripts:
-
-### tests:
-- the folder containing unit tests for components in the scripts
-
-### logs:
-- the folder containing log files (if it doesn't exist it will be created once logging starts)
-
-### root folder
-
-
-## Dependancies
+[MIT](https://choosealicense.com/licenses/mit/)
