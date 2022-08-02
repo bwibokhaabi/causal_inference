@@ -18,13 +18,13 @@ Breast cancer is the most common invasive cancer in women and the second leading
 Clone the project
 
 ```bash
-  git clone https://github.com/DiyeMark/Causal-Inference.git
+  git clone https://github.com/bwibokhaabi/causal_inference.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Causal-Inference
+  cd causal_inference
 ```
 
 Install dependencies
