@@ -166,6 +166,8 @@ class DataCleaner:
         - returns the dataframe
         """
         return self.df
+    
+    
 if __name__ == '__main__':
     store = load_df_from_csv("../data/train.csv",na_values=missing_values)
     df = load_df_from_csv("../data/train.csv",na_values=missing_values)
